@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="main">
+      <form
+        action="http://127.0.1:3000/signup"
+        method="POST"
+        class="SignUpSection"
+        id="signUp"
+      >
+        <h1 style="margin: 0px">SignUp</h1>
+        <h4 style="margin: 0px">Please register yourself with us</h4>
+        <div class="generalDetails" id="generalDetails">
+          <label for="firstName">First Name</label>
+          <input type="text" placeholder="First Name" id="firstName" />
+          <label for="lastName">Last Name</label>
+          <input type="text" placeholder="Last Name" id="lastName" />
+        </div>
+        <div class="loginDetails" id="loginDetails">
+          <label for="mail">Email</label>
+          <input type="text" placeholder="Enter your mail-id" id="mail" />
+          <label for="pass">Password</label>
+          <input type="password" placeholder="Enter your Password" id="pass" />
+          <label for="repass">Confirm Password</label>
+          <input
+            type="password"
+            placeholder="Re-Enter your Password"
+            id="repass"
+          />
+          <button type="submit" class="Register" id="register_info">
+            Register
+          </button>
+        </div>
+      </form>
+
+      <!-- <section class="loginSection">
+        <h1 style="margin: 0px">Login</h1>
+        <h4 style="margin: 0px">Please enter your username and password</h4>
+        <div class="loginDetails">
+          <input type="text" placeholder="Enter your mail-id" />
+          <input type="text" placeholder="Enter your Password" />
+          <button type="submit" class="submitInfo">Login</button>
+        </div>
+        <div class="signUp">
+          <h4>Dosen't have an account?<a href="signUp">SignUp</a></h4>
+        </div>
+      </section> -->
+
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-image: url(images/5172658.jpg);
+  background-size: contain;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginSection {
+  height: 80%;
+  width: 32vw;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.loginSection h1 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.loginSection input {
+  border: solid;
+  border-radius: 14px;
+  font-style: italic;
+  font-family: cursive;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.generalDetails {
+  display: inline;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.generalDetails input {
+  width: 150px;
+}
+
+.loginDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+input {
+  width: 314px;
+}
+
+.submitInfo {
+  border-radius: 10px;
+  width: 115px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.signUp h4,
+a {
+  text-decoration: none;
+}
+
+.register h4,
+a {
+  text-decoration: none;
+}
+
+.Register {
+  border-radius: 10px;
+  width: 115px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.SignUpSection {
+  height: 80%;
+  width: 32vw;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.SignUpSection h1 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.SignUpSection input {
+  border: solid;
+  border-radius: 14px;
+  font-style: italic;
+  font-family: cursive;
+  font-size: medium;
+  font-weight: bold;
+}
